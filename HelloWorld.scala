@@ -6,7 +6,7 @@ object HelloWorld {
     insertion.sort(A, true)
 
     for (number <- A) {
-      println(number)
+      println("number:"+number)
     }
   }
 }
