@@ -4,9 +4,9 @@ object FizzBuzz {
            if (i % 3 == 0 && i % 5 == 0) {
                println ("FizzBuzz")
            } else if (i % 3 == 0) {
-               println ("Fizz")
+               println ("Fizz: ")
            } else if (i % 5 == 0) {
-               println ("Buzz")
+               println ("Buzz: ")
            } else {
                println(i)
            }
