@@ -19,10 +19,10 @@ El algoritmo de ordenamiento consta de tomar uno por uno los elementos de un arr
 ##*Cálculo de orden* 
 Antes de calcular el orden del algoritmo, primero se debe encontrar el tiempo de ejecución de cada isntrucción, como se muestra en la siguiente tabla.
 
-_Siendo __n__ el número de elementos del arreglo a ordenar._
+*Siendo **n** el número de elementos del arreglo a ordenar.*
 
 No. | Instrucción | Código | Tiempo
--|--------------------|-------------------------|-----------------------------
+-----|----------------------------|---------------------------------|-------------------------------
 1 | for j= 2 to A.length | c1|_n_
 2 | key = A[j] | c2| _n - 1_
 3 | i = j-1 | c3| _n - 1_
@@ -37,24 +37,15 @@ No. | Instrucción | Código | Tiempo
 
 Ahora, procedemos a calcular el orden para el peor de los casos de nuestro algoritmo.
 
-![ecuacion](http://www.sciweavers.org/tex2img.php?eq=T%28n%29%20%3D%20c_%7B1%7Dn%20%2B%20c_%7B2%7D%28n-1%29%20%2B%20c_%7B3%7D%28n-1%29%20%2B%20c_%7B4%7D%5Csum_%7Bj%3D2%20%7D%5E%7Bn%7Dt_%7Bj%7D%20%2B%20c_%7B5%7D%5Csum_%7Bj%3D2%20%7D%5E%7Bn%7D%28t_%7Bj%7D%20-1%29%20%2B%20c_%7B6%7D%5Csum_%7Bj%3D2%20%7D%5E%7Bn%7D%28t_%7Bj%7D%20-1%29%20%2B%20c_%7B7%7D%28n-1%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
+![ecuacion0](http://i.imgur.com/jMyzMTP.png) 
 Convirtiendo las sumatorias a una expresión en función de n, nos queda:
-
-![Ecuacion2] (http://www.sciweavers.org/tex2img.php?eq=T%28n%29%20%3D%20c_%7B1%7Dn%20%2B%20c_%7B2%7D%28n-1%29%20%2B%20c_%7B3%7D%28n-1%29%20%2B%20c_%7B4%7D%28%5Cfrac%7Bn%28n%2B1%29%7D%7B2%7D%20-1%29%20%2B%20c_%7B5%7D%28%5Cfrac%7Bn%28n-1%29%7D%7B2%7D%20%29%20%2B%20c_%7B6%7D%28%5Cfrac%7Bn%28n-1%29%7D%7B2%7D%20%29%20%2B%20c_%7B7%7D%28n-1%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
+![ecuacion1](http://i.imgur.com/LyPlnrn.png)
 Reduciendo términos
-
-![Ecuacion 3] (http://www.sciweavers.org/tex2img.php?eq=T%28n%29%20%3D%20c_%7B1%7Dn%20%2B%20c_%7B2%7Dn%20-%20c_%7B2%7D%20%2B%20c_%7B3%7Dn%20-%20c_%7B3%7D%20%2B%20c_%7B4%7D%28%5Cfrac%7Bn%28n%2B1%29%7D%7B2%7D%20-1%29%20%2B%20c_%7B5%7D%28%5Cfrac%7Bn%28n-1%29%7D%7B2%7D%20%29%20%2B%20c_%7B6%7D%28%5Cfrac%7Bn%28n-1%29%7D%7B2%7D%20%29%20%2B%20c_%7B7%7Dn%20-%20c_%7B7%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
+![ecuacion2](http://i.imgur.com/zVEjsAX.png) 
 Se agrupan términos semejantes
-
-![Ecuacion 4] (http://www.sciweavers.org/tex2img.php?eq=T%28n%29%20%3D%20c_%7B4%7D%5Cfrac%7B%20n%5E%7B2%7D%7D%7B2%7D%20%2B%20c_%7B5%7D%5Cfrac%7B%20n%5E%7B2%7D%7D%7B2%7D%20%2B%20c_%7B6%7D%5Cfrac%7B%20n%5E%7B2%7D%7D%7B2%7D%20%2B%20c_%7B4%7D%5Cfrac%7Bn%7D%7B2%7D%20-%20c_%7B5%7D%5Cfrac%7Bn%7D%7B2%7D%20-%20c_%7B6%7D%5Cfrac%7Bn%7D%7B2%7D%20%2B%20c_%7B1%7Dn%20%2B%20c_%7B2%7Dn%20%2B%20c_%7B3%7Dn%20%2B%20c_%7B7%7Dn%20-c_%7B2%7D%20-c_%7B3%7D%20-c_%7B4%7D%20-c_%7B7%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![Ecuacion 5] (http://www.sciweavers.org/tex2img.php?eq=T%28n%29%20%3D%20%28c_%7B4%7D%20%2B%20c_%7B5%7D%20%2B%20c_%7B6%7D%29%5Cfrac%7B%20n%5E%7B2%7D%7D%7B2%7D%20%2B%20%28c_%7B1%7D%20%2B%20c_%7B2%7D%20%2B%20c_%7B3%7D%20%2B%20%5Cfrac%7Bc_%7B4%7D%7D%7B2%7D%20-%20%5Cfrac%7Bc_%7B5%7D%7D%7B2%7D%20-%20%5Cfrac%7Bc_%7B6%7D%7D%7B2%7D%29%20n%20-%20%28c_%7B2%7D%20%2B%20c_%7B3%7D%20%2B%20c_%7B4%7D%20%2B%20c_%7B7%7D%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-Y ya que la ecuación nos quedo similar a la forma:
-![Ecuación 6] (http://www.sciweavers.org/tex2img.php?eq=an%5E%7B2%7D%20%20bn%20-%20c&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![ecuacion3](http://i.imgur.com/U3q8VLN.png) 
+![ecuacion4](http://i.imgur.com/vAmgdkw.png)
+Y ya que la ecuación nos quedo similar a la forma: 
+![ecuacion5](http://i.imgur.com/ofyphEY.png) 
 
 Se observa que el grado más elevado es 2, por lo tanto, el algoritmo es de orden 2.
-
