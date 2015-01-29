@@ -36,14 +36,13 @@ No. | Instrucción | Código | Tiempo
 * __3, 4__ y __5__ es lo mismo que la instrucción 2, pero al estar dentro del ciclo se le resta 1.
 
 Ahora, procedemos a calcular el orden para el peor de los casos de nuestro algoritmo.
-
 ![ec1](http://i.imgur.com/YnooRcx.png) 
 
 Se simplifica.
 ![ec2](http://i.imgur.com/NEBybEH.png) 
 
 Se agrupa en términos independietes.
-![ec3](http://i.imgur.com/2NmNVN2.png) 
+![ec3](http://i.imgur.com/2NmNVN2.png)
 ![ec4](http://i.imgur.com/40QmwIA.png) 
 
 De esta forma, nos damos cuenta de que el exponente mayor es de grado 1, por lo tanto, nuestro algoritmo es de orden 1.
