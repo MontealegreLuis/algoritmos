@@ -37,13 +37,13 @@ No. | Instrucción | Código | Tiempo
 
 Ahora, procedemos a calcular el orden para el peor de los casos de nuestro algoritmo.
 
-![ec1](http://www.sciweavers.org/tex2img.php?eq=T%28x%29%20%3D%20%20%20c_%7B1%7D%20%2B%20%20c_%7B2%7D%28n%2B1%29%20%2B%20%20c_%7B3%7Dn%20%2B%20c_%7B4%7Dn%20%2B%20c_%7B5%7Dn&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) 
+![ec1](http://i.imgur.com/YnooRcx.png) 
 
 Se simplifica.
-![ec2](http://www.sciweavers.org/tex2img.php?eq=T%28x%29%20%3D%20%20%20c_%7B1%7D%20%2B%20%20c_%7B2%7Dn%20%2B%20c_%7B2%7D%20%2B%20%20c_%7B3%7Dn%20%2B%20c_%7B4%7Dn%20%2B%20c_%7B5%7Dn&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) 
+![ec2](http://i.imgur.com/NEBybEH.png) 
 
 Se agrupa en términos independietes.
-![ec3](http://www.sciweavers.org/tex2img.php?eq=T%28x%29%20%3D%20c_%7B2%7Dn%20%20%2B%20%20c_%7B3%7Dn%20%2B%20c_%7B4%7Dn%20%2B%20c_%7B5%7Dn%20%2B%20c_%7B1%7D%20%2B%20c_%7B2%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) 
-![ec4](http://www.sciweavers.org/tex2img.php?eq=T%28x%29%20%3D%20%28c_%7B2%7D%20%20%2B%20%20c_%7B3%7D%20%2B%20c_%7B4%7D%20%2B%20c_%7B5%7D%29n%20%2B%20c_%7B1%7D%20%2B%20c_%7B2%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) 
+![ec3](http://i.imgur.com/2NmNVN2.png) 
+![ec4](http://i.imgur.com/40QmwIA.png) 
 
 De esta forma, nos damos cuenta de que el exponente mayor es de grado 1, por lo tanto, nuestro algoritmo es de orden 1.
