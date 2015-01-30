@@ -8,7 +8,7 @@ object FizzBuzz {
            } else if (i % 5 == 0) {
                println ("Buzz")
            } else {
-               println(i)
+               print(i+",")
            }
        }
     }
