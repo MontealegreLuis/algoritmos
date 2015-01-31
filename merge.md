@@ -40,9 +40,9 @@ Se necesitan menos pasos para construir una lista ordenada a partir de dos lista
 ### Orden ###
 
 **Tiempo de ejecución**
-![GitHub Logo](http://www.sciweavers.org/upload/Tex2Img_1422415589/render.png) 
+![GitHub Logo](http://www.sciweavers.org/upload/Tex2Img_1422678628/render.png) 
 
-![GitHub Logo](http://www.sciweavers.org/upload/Tex2Img_1422415764/render.png) 
+![GitHub Logo](http://www.sciweavers.org/upload/Tex2Img_1422678471/render.png) 
 
-![GitHub Logo](http://www.sciweavers.org/upload/Tex2Img_1422415854/render.png) 
+![GitHub Logo](http://www.sciweavers.org/upload/Tex2Img_1422678434/render.png) 
 
