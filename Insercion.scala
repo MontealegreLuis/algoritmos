@@ -1,6 +1,6 @@
 class Insercion {
   
-  def Ordena(myList: Array[Int]) {
+def Ordena(myList: Array[Int]) {
       
     
     var aux=0
@@ -8,20 +8,17 @@ class Insercion {
 
      
     
-    for(i<-1 to myList.length)
+    for(i<-0 to myList.length-1)
     {
-      aux = myList(i)
-      j=i-1
-      while((myList(j) > aux) && (j>=0))
+      aux=myList(i)
+      j=i
+      while(j>0 && myList(j-1) > aux)
       {
-        myList(j+1)=myList(j)
+        myList(j)=myList(j-1)
         j=j-1
         
       }
-      myList(j+1)=aux
+      myList(j)=aux
     }
-    
-   
-
-}
+  }
 }
