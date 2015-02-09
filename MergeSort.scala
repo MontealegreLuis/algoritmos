@@ -44,7 +44,7 @@ Merge(A,p,q,r)
 
 def main(args:Array[String]){
    
-	var A = Array(120,13,34,99,18,6,4,300,2)
+	var A = Array(120,13,34,99,18,6,4,300,2,10)
 	Sort(A,0,A.length-1)
 	for(i<-0 to A.length-1){
 	print(A(i)+"  ")	
