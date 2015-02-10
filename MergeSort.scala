@@ -2,6 +2,8 @@ import scala.collection.mutable
 
 class MergeSort {
 
+def main(args: Array[String]){
+
     def sort(numbers: List[Int]): List[Int] = {
         val n = numbers.size
         if(n <= 1) return numbers
@@ -30,4 +32,5 @@ class MergeSort {
 
         values.toList
     }
+  }
 }
