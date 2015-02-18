@@ -30,7 +30,6 @@ object Merge_Sort{
 	}
 
 	def MergeSort(A:Array[Int], p:Int, r:Int){
-		//println("\np = "+p+", r = "+r)
 			if(p<r){
 			  var  q = (p+r)/2
 			  //println("q = "+q)	
