@@ -8,16 +8,17 @@ object Fizzbuzz_Rene {
          for(i<-0 to 100){
             if((i%3)==0 ||(i%5==0)){
 		        if((i%3)==0){
-					System.out.print(" Fizz");
+					print(" Fizz")
 					}
 			   if((i%5)==0){
-					System.out.print(" buzz");
+				   print(" buzz")
 					}
-                      System.out.println("");
+                      println("")
                       }   
-                       else{
-					System.out.println(" "+i);
-						}	
+                       else
+                            {
+		println(" "+i)
+			}	
        }
     
     }
