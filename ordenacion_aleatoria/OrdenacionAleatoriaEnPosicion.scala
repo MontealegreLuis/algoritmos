@@ -21,7 +21,7 @@ object OrdenacionAleatoria {
     var n = A.length;
     var r = new Random()
     for(i<-0 to n-1){
-      var ran = r.nextInt(n-1)
+      var ran = r.nextInt(n-i) + i
       var aux = A(i)
       A(i) = A(ran)
       A(ran) = aux
