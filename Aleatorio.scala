@@ -36,7 +36,7 @@ for(z<-1 to A.length-1 )
 println("El arreglo con nuevo ordenamiento es = ")
 for(z<-0 to A.length-1)
 {
-  print(A(z)+" ")
+  print(A(z)+" .")
 }
 
 }
