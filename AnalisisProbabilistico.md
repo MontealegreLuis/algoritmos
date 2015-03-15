@@ -1,6 +1,6 @@
 #**Analisis Probabilistico**
 
-<br><br>
+<br>
 ##Sombreros
 
 
@@ -11,7 +11,7 @@
 ![sombreros](/imgs/sombreros3.png)
 
 
-<br><br>
+<br>
 ##El problema de la contratación
 
 Supongamos que se necesita contratar a un nuevo asistente de oficina. Decides contratar una agencia que te envía un candidato cada día.
@@ -48,17 +48,7 @@ Cuando usamos análisis probabilístico estamos calculando el tiempo de ejecuci�
 
 Sea X el número de veces que contratamos un nuevo asistente.
 
-![img](http://www.sciweavers.org/tex2img.php?eq=E%5BX%5D%3D%5Csum_%7Bx%3D1%7D%5E%7Bn%7D%20x%20Pr%5Cbig%5C%7Bx%20%3D%20x%5Cbig%5C%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![img](http://www.sciweavers.org/tex2img.php?eq=E%5BX_%7Bi%7D%5D%3DPr%5Cbig%5C%7B%20candidate%20i%20is%20hired%5Cbig%5C%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![img](http://www.sciweavers.org/tex2img.php?eq=E%5BX_%7Bi%7D%5D%3D1%2Fi&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![img](http://www.sciweavers.org/tex2img.php?eq=E%5BX%5D%3DE%5B%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20x_%7Bi%7D%5D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![img](http://www.sciweavers.org/tex2img.php?eq=E%5BX%5D%3D%5Csum_%7Bi%3D1%7D%5E%7Bn%7DE%5B%20x_%7Bi%7D%5D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![img](http://www.sciweavers.org/tex2img.php?eq=%3D%5Csum_%7Bi%3D1%7D%5E%7Bn%7D1%2Fi&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![contratar](/imgs/contratar1.png)
 
 
 
@@ -66,14 +56,12 @@ Sea X el número de veces que contratamos un nuevo asistente.
 <br><br>
 ##El dado. Probabilidad que salga un 6
 Calcularemos el indicador de variables aleatorias
-![img](http://www.sciweavers.org/tex2img.php?eq=%20I%20%7B6%7D%20%3D%5Cbegin%7Bcases%7D1%20%26%20si%20%20sale%20%20un%20%20%206%20%5C%5C0%20%26%20Si%20%20%20sale%20%20%20otro%20nu%20%5Cend%7Bcases%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+
+![moneda](/imgs/moneda1.png)
 
 
 
 Ahora tenemos:
 
 
-![img](http://www.sciweavers.org/tex2img.php?eq=%3D%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20%201%2F6&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-
-
+![moneda](/imgs/moneda2.png)
