@@ -40,6 +40,7 @@ object PermuteBySorting{
           
         PermutaYOrdena(A)
         
+
         println("El arreglo Permutado es:\n")
         for(i <- A)
             print(i + ", ")
