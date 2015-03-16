@@ -4,7 +4,7 @@
 
 class hireassistant{
 	def seleccionarinplace(A: Array[Int]) = {
-		val B = new Randomize()
+		val B = new Mordenamientos()
 		B.Inplace(A)
 		var Best = 0
 		for( i <- 0 to A.length-1) {
@@ -17,7 +17,7 @@ class hireassistant{
 	}
 
 	def seleccionarPermute(A: Array[Int]) = {
-		val B = new Ordenar()
+		val B = new Mordenamientos()
 		B.PermuteBySorting(A)
 		var Best = 0
 		for( i <- 0 to A.length-1) {

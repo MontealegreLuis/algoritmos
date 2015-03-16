@@ -5,7 +5,7 @@
 
 import scala.util.Random;
 import scala.math;
-class Ordenar{
+class Mordenamientos{
 	def PermuteBySorting(A: Array[Int])={
 		//println("\n Generacion del arreglo aleatorio \n")
 		var v =math.pow(A.length, 3)
@@ -44,5 +44,17 @@ class Ordenar{
 		/*for( i <- 0 to A.length-1) {
 			println(A(i)+" "+P(i))
 		}*/
+	}
+
+	def Inplace(A: Array[Int])={
+		val r = new Random()
+		var (pos,aux) = (0,0)
+
+		for( i <- 0 to A.length-1) {
+			pos = r.nextInt(A.length-1)
+			aux = A(pos)
+			A(pos) = A(i)
+			A(i) = aux
+		}
 	}
 }
