@@ -1,4 +1,4 @@
-object PermuteBySorting{
+object Empleados1{
     def SelectionSort(A:Array[Int], A2:Array[Int]){
         var Tam = A2.length
         var indice = 0
@@ -30,19 +30,17 @@ object PermuteBySorting{
         SelectionSort(A,A2)
     }
     def main(args:Array[String]){
+        var NumContr = 1 // Numero de contrataciones
         var A = Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-        
-        println("El arreglo normal es:\n")
-        for(i <- A)
-            print(i + ", ")
-            
-        println("\n")
-          
         PermutaYOrdena(A)
-        
-
-        println("El arreglo Permutado es:\n")
-        for(i <- A)
-            print(i + ", ")
+        var EmpleadoAdecuado = A(0)
+        for(i <- 1 to A.length - 1){
+            if(A(i) > EmpleadoAdecuado){
+                NumContr += 1
+                EmpleadoAdecuado = A(i)
+            }
+        }
+        println("Se ha hecho " + NumContr + " contratacion(es)\n")
+        println("El empledo mas adecuado es: " + EmpleadoAdecuado)
     }
 }
