@@ -33,10 +33,10 @@ for(z<-1 to A.length-1 )
   }
 }
 
-println("El arreglo con nuevo ordenamiento es = ")
+println("El arreglo con el nuevo ordenamiento es = ")
 for(z<-0 to A.length-1)
 {
-  print(A(z)+" .")
+  print(A(z)+" "+" .")
 }
 
 }
