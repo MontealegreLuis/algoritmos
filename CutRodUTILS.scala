@@ -19,7 +19,7 @@ object CutRodUTILS {
 	 */
 	object TIPO_DE_EJECUCION_CUT_ROD extends Enumeration {
 		//type TIPO_DE_EJECUCION_CUD_ROD = Value
-		val CUT_ROD, MEMORIZED_CUT_ROD, BOTTOM_UP_CUT_ROD = Value
+		val CUT_ROD, MEMORIZED_CUT_ROD, BOTTOM_UP_CUT_ROD, EXTENDED_BOTTOM_UP_CUT_ROD = Value
 	}
 
 	/**
@@ -51,6 +51,9 @@ object CutRodUTILS {
 				
 			case TIPO_DE_EJECUCION_CUT_ROD.MEMORIZED_CUT_ROD => 
 				println(which + TIPO_DE_EJECUCION_CUT_ROD.MEMORIZED_CUT_ROD.toString())
+		
+			case TIPO_DE_EJECUCION_CUT_ROD.EXTENDED_BOTTOM_UP_CUT_ROD => 
+				println(which + TIPO_DE_EJECUCION_CUT_ROD.EXTENDED_BOTTOM_UP_CUT_ROD.toString())
 		}
 		
 
@@ -81,6 +84,9 @@ object CutRodUTILS {
 				
 			case TIPO_DE_EJECUCION_CUT_ROD.MEMORIZED_CUT_ROD => 
 				println(which + memorizedCutRodAlgorithm(tamanioPipe))
+
+			case TIPO_DE_EJECUCION_CUT_ROD.EXTENDED_BOTTOM_UP_CUT_ROD => 
+				println(which + extended_Bottom_Up_Cut_Rod(tamanioPipe))				
 		}
 	}
 	
