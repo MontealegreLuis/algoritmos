@@ -4,6 +4,7 @@ import scala.Array._
 import cut_rod.Bottom_Up_Cut_Rod._
 import cut_rod.Cut_Rod._
 import cut_rod.Memorized_Cut_Rod._
+import cut_rod.ExtendedBottomUpCutRod._
 
 
 /**
