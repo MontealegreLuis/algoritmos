@@ -21,6 +21,7 @@ object Empleados2{
                 EmpleadoAdecuado = A(i)
             }
         }
+
         println("Se ha hecho " + NumContr + " contratacion(es)\n")
         println("El empledo mas adecuado es: " + EmpleadoAdecuado)
     }
