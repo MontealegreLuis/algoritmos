@@ -20,8 +20,8 @@ object Extended_Bottom_Up_Cut_Rod{
 	for(j <- 0 to m){
 	    q=(-999)
 	    for(i<-0 to j){
-              if(q<(P(i)+r(j-i))){  
-                 q=(P(i)+r(j-i))
+              if(q<(P(i-1)+r(j-i))){  
+                 q=(P(i-1)+r(j-i))
                  s(j)=i
                  println("s(j)= "+s(j))
 
