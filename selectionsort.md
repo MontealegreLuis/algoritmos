@@ -20,16 +20,9 @@ Este algoritmo mejora ligeramente el __algoritmo de la burbuja__. En el caso de 
 ##*Cálculo de orden* 
 Antes de calcular el orden del algoritmo, primero se debe encontrar el tiempo de ejecución de cada isntrucción, como se muestra en la siguiente tabla.
 
-_Siendo __n__ el número de elementos del arreglo a ordenar._
+Siendo n el número de elementos del arreglo a ordenar.
 
-No. | Instrucción | Código | Tiempo
--|--------------------|-------------------------|-----------------------------
-1 |minimo = i| c1|_1_
-2 | for j=i+1 to n | c2| _n +1_
-3 | if lista[j] < lista[minimo] | c3| _n_
-4 | minimo = j  | c4|  n
-5 | intercambiar(lista[i], lista[minimo]) | c5| n
-
+![Imgur](http://i.imgur.com/FN9tDLZ.png)
 
 * En __1__, el tiempo es _1_  porque es una sola instrucción.
 * En __2__ el tiempo es _n+1_ por ser el inicio de un ciclo sencillo y la isntrucción se repetira n más un vez adicional.
