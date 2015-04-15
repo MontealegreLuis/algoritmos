@@ -3,8 +3,9 @@ import scala.util.Random
 object Aleatorio{
 def main(args:Array[String]){
 
-var A=Array(1,2,3,4,5)
+var A=Array(5,2,8,4,1)
 var P=new Array[Int](A.length)
+var R=new Array[Int](A.length)
 var ale =new Random
 var i=0
 
@@ -36,8 +37,9 @@ for(z<-1 to A.length-1 )
 println("El arreglo con el nuevo ordenamiento es = ")
 for(z<-0 to A.length-1)
 {
-  print(A(z)+" "+" .")
+  print(P(z)+" ")
 }
+print(".\n")
 
 }
 }
