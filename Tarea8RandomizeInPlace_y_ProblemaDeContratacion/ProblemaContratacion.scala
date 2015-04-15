@@ -125,8 +125,6 @@ object ProblemaContratacion
 	A(i) = auxA
       }
     }//Llave del for para ordenar por seleccion
-
-  }//Llave de la funcion Permuta
-
+  }
 }
 

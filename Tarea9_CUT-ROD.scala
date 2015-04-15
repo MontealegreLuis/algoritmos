@@ -1,7 +1,6 @@
 /*
   Tarea9 CUT-ROD
 */
-
 object Cut_Rod
 {
   //Para no pasarla como argumento se declara aqui
@@ -12,7 +11,6 @@ object Cut_Rod
     println("Tamaño del tubo para cortar: "+tubo);
     println("Ganancia máxima: "+CutRod(tubo))
   }
-
   def CutRod(n: Int): Int = 
   {
     if(n==0)

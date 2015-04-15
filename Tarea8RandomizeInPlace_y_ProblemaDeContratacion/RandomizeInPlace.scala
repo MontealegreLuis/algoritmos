@@ -34,6 +34,5 @@ object RandomizeInPlace
       A(i) = A(ran)
       A(ran) = aux
     }
-  }//Llave de la funcion Ordena
-
+  }
 }

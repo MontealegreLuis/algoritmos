@@ -1,8 +1,6 @@
 /*
   Tarea11 Extended-Bottom-Up-Cut-Rod(p,n)
 */
-
-
 object ExtendedBottomUpCutRod
 {
   var p = Array(1,5,8,9,10,17,17,20,24,30)
@@ -31,7 +29,6 @@ object ExtendedBottomUpCutRod
     }
     return r(n)
   }
-
   def max(a: Int, b: Int): Int = 
   {
     if( a <= b)

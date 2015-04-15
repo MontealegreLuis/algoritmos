@@ -4,6 +4,7 @@
    -En cuantas partes se va a cortar.
    -Arriba-abajo y abajo-arriba
 */
+
 object Memorized_Cut_Rod
 {
   var p = Array(1,5,8,9,10,17,17,20,24,30)
@@ -41,8 +42,6 @@ object Memorized_Cut_Rod
       return q
     }
   }
-
-
   def max(a: Int, b: Int): Int = 
   {
     if( a <= b)

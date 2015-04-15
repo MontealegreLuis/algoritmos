@@ -23,8 +23,6 @@ object PermuteBySorting
       print(A(i)+" ")
     println()
   }
-
-
   def Permuta(A: Array[Int])
   {
     var n = A.length
@@ -71,12 +69,9 @@ object PermuteBySorting
 	A(i) = auxA
       }
     }//Llave del for para ordenar por seleccion
-
     println("\nArreglo P ordenado")
     for(i<-0 to A.length-1)
       print(P(i)+" ")
     println()
-
-  }//Llave de la funcion Permuta
-
+  }
 }
