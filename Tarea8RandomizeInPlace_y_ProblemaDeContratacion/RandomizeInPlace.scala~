@@ -5,6 +5,7 @@
  3.  swap A[i] with A[RANDOM(i,n)]
 */
 
+
 import scala.util.Random
 object RandomizeInPlace
 {
@@ -25,7 +26,6 @@ object RandomizeInPlace
   def Ordena(A: Array[Int])
   {
     var n = A.length
-    println("\nLongitud: "+n)
     var r = new Random()//Objeto tipo Random
     for(i <-0 to n-1)
     {

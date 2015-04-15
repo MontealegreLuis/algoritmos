@@ -24,6 +24,7 @@ object PermuteBySorting
     println()
   }
 
+
   def Permuta(A: Array[Int])
   {
     var n = A.length
@@ -78,4 +79,4 @@ object PermuteBySorting
 
   }//Llave de la funcion Permuta
 
-}//Llave del object
+}

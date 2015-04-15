@@ -128,4 +128,5 @@ object ProblemaContratacion
 
   }//Llave de la funcion Permuta
 
-}//Llave del object
+}
+

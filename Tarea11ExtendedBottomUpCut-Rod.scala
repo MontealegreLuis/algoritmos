@@ -2,6 +2,7 @@
   Tarea11 Extended-Bottom-Up-Cut-Rod(p,n)
 */
 
+
 object ExtendedBottomUpCutRod
 {
   var p = Array(1,5,8,9,10,17,17,20,24,30)
@@ -38,4 +39,4 @@ object ExtendedBottomUpCutRod
     else
       return a
   }
-}//Llave del object
+}

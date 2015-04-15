@@ -5,6 +5,7 @@
  3.  swap A[i] with A[RANDOM(i,n)]
 */
 
+
 import scala.util.Random
 object RandomizeInPlace
 {
@@ -35,4 +36,4 @@ object RandomizeInPlace
     }
   }//Llave de la funcion Ordena
 
-}//Llave del object
+}

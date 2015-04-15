@@ -22,7 +22,6 @@ object Cut_Rod
       q = max(q, p(i) + CutRod(n-1-i))
     return q
   }
-
   def max(a: Int, b: Int): Int = 
   {
     if( a <= b)
