@@ -12,7 +12,7 @@ def main(args: Array[String]){
         merge( sort(lowerHalf), sort(upperHalf))
     }
 
-    private def merge(left: List[Int], right: List[Int]): List[Int] = {
+    def merge(left: List[Int], right: List[Int]): List[Int] = {
         var i = 0 // izquierda de la list
         var j = 0 // Derecha de la listalist
         val values = mutable.ListBuffer[Int]() // resultado
