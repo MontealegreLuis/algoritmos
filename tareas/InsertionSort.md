@@ -11,7 +11,7 @@ Ventajas del algoritmo:
 + Si la entrada esta "casi ordenada", el algoritmo se ejecuta mucho más rápidamente.Esta velocidad tiende a un tiempo O(N), peor caso que se cumple cuando la entrada está totalmente ordenada.
 + A pesar de no ser el más rápido para entradas grandes, suele usarse de la siguiente manera: Se pone semi-ordena la entrada con algún otro algoritmo más rápido y más adecuado para entradas grandes. Y cuando tenemos la entrada "casi ordenada" utilizamos este algoritmo.
 
-#Seudocódigo
+##Pseudocódigo##
 ![GitHub Logo](/images/IS.jpg)
 
 ##Código en scala

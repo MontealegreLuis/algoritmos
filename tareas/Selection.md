@@ -16,7 +16,7 @@ Desventajas del algoritmo:
 
 Es un algoritmo no estable de ordenación interna y su complejidad temporal en el peor caso es del orden de **O(n2)** y en el mejor caso, que el array ya esté totalmente ordenado pues también es **0(n2)** siendo n el tamaño del array a ordenar,el caso es que éste algoritmo siempre hace el mismo número de comparaciones e intercambios para un n dado
 
-#Seudocódigo
+##Pseudocódigo##
 ![GitHub Logo](/select/ss.png)
 
 ##Código en scala

@@ -46,7 +46,7 @@ Ventajas del algoritmo:
 
 Su principal desventaja es que se encuentra definido recursivamente y su implementación no recursivaemplea una pila, por lo que quiere un espacio adicional de memoria para almacenarla.
 
-#Seudocódigo
+##Pseudocódigo##
 ![GitHub Logo](/mer/mer.jpg)
 
     #Código en scala
