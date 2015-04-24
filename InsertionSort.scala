@@ -1,7 +1,9 @@
 class InsertionSort{
-  def sort(A: Array[Int], asc: Boolean){
+  def main(args: Array[String]){
     var key = 0
     var i = 0
+    var A=Array(3,5,7,2,4,7)
+    var asc=true
 
     for (j <- 1 to A.length - 1) {
       key = A(j)
